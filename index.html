@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div>
+        <h1>My JS Game</h1>
+        <div id="reset-container">
+            <button id="reset-button">RESET</button><br>
+            NUMBER OF RESETS: <span id="num-resets">0</span>
+        </div>
+        <div class="clear"></div>
+        <div class="left">
+            <h2>
+                Team 1
+            </h2>
+            <div class="goals">
+                SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
+                GOALS: <span id="teamone-numgoals">0</span>
+            </div>
+            <div>
+                <button id="teamone-shoot-button">SHOOT</button>
+
+            </div>
+        </div>
+        <div class="right">
+            <h2>
+                Team 2
+            </h2>
+            <div class="goals">
+                SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
+                GOALS: <span id="teamtwo-numgoals">0</span>
+            </div>
+            <div>
+                <button id="teamtwo-shoot-button">SHOOT</button>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        
+    </div>
+    <audio id="sound">   
+        <source src="http://soundfxcenter.com/sports/basketball/8d82b5_Basketball_Net_Swish_Sound_Effect.mp3" />   
+        </audio>   
+
+        <audio id="buzzer">   
+            <source src= http://soundjax.com/reddo/47434%5EBUZZER.mp3></audio> 
+
+        <script src="./assets/javascript/game.js"></script>
+
+         
+
+  </body>
+</html>
